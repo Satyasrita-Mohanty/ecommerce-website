@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+nav{
+    padding: 0;
+    margin: 0;
+
+}
+ .navigationBarMobile{
+    display: block;
+}
+.navigationBarDesktop{
+    display: none;
+}
+.navigationBarMobile .navLink{
+    font-size: 12px !important;
+    padding: 0px !important;
+     color:  #060506;
+}
+.navigationBarMobile .navLink:hover{
+     color:  #060506;
+}
+.jumbotron-header {
+ 
+ padding: 10px 0px 10px 0px;   
+ text-align: center;
+  top: 0px;
+  right: 0;
+  left: 0;
+  width: 100%;
+    background-color:  #060506;
+}
+.jumbotron-headerMobile{
+       background-color:  #ffffff;
+}
+.menuIcon{
+    margin-left: -7px;
+}
+.mobileNavbar{
+    margin-left: 15px;
+}
+
+.navLink{
+    color:  #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;  
+    padding: 0px 10px;
+}
+.navLink:hover{
+    text-decoration: none;
+     color:  #ffffff;
+    
+}
+.navLinkStyle{
+    list-style-type: none;
+}
+.container-2{
+    background-color: #e9b30e;
+    width: 100%;
+    padding: 15px 0px;
+}
+.signLink{
+    color: #060506;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;  
+    padding: 0px 14px;
+}
+.signLink:hover{
+    text-decoration: none;
+     color: #060506;    
+}
+.signCotainer{
+    text-align: right;
+    margin-top: -24px;
+}
+.container-1{
+    background-color:#e9b30e;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+.menuLink{
+    color: #060506;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 6px;
+    
+}
+.menuLink:hover{
+    text-decoration: none;
+      color: #060506;
+}
+.logoImage{
+        width: 120%;
+}
+
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 100px 0px !important;
+    margin: 0px;
+}
+.jumbotron-footer .container{
+    max-width: 1140px;    
+}
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.footer-heading{
+	color: #fff;
+	font-size:14px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:12px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+    .navLink{
+        font-size: 14px;
+    }
+     .menuLink{
+        font-size: 10px;
+    }
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    
+    .nav-item{
+        padding: 8px 0px;
+    }
+    .logoImage{
+        width: 150%;
+    }
+      .nav-item{
+        padding: 8px 0px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+    .navigationBarDesktop{
+         display: block;
+    }
+    .navigationBarMobile{
+        display: none;
+    }
+     .navigationBarDesktop{
+         display: block;
+    }
+    .menuLink{
+       padding: 0px 10px;
+       font-size: 12px;
+    }
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+      .menuLink{
+        padding: 0px 25px;
+       font-size: 14px;
+    }
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+     .menuLink{
+        padding: 0px 40px;
+    }
+    
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down)  start*/
+@media only screen and (max-width: 1200px) {
+    
+}
