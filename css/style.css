@@ -115,6 +115,23 @@ nav{
     text-decoration: none;
       color: #060506;
 }
+.dropDownLink{
+    color: #060506;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.dropDownLink:hover{
+    color: #e9b30e;
+    text-decoration: none;
+}
+.dropDownLink:focus{
+    color: #e9b30e;
+    text-decoration: none;
+    background-color: transparent;
+}
 .logoImage{
         width: 120%;
 }
@@ -161,8 +178,158 @@ nav{
     color: #fff;
     font-size: 15px;
 }
+.starting-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;  
+    font-weight: bold;
+}
+.top-icon-headings{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.click-button{
+     color:  #003d66;
+     font-size: 20px;
+     text-decoration: none;
+    text-transform: capitalize;
+     padding: 8px 4px;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #d9d9d9,#fbeab7, #e9b30e);  
+}
+.click-button:hover{
+     text-decoration: none;
+}
+.clickButtonCont{
+    margin: 0px auto;
+    text-align: center;
+}
+.viewDetails{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e9b30e;
+    color: #ffffff;
+    border: none;
+}
+.viewDetails:hover{
+     background-color: #e9b30e;
+     color: #ffffff;
+}
+.viewDetails:focus{
+     background-color: #e9b30e;
+     color: #ffffff;
+}
+.viewAllCont{
+    text-align: end;
+}
+.viewAll{
+   font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: #000000;
+    font-size: 15px;
+}
+.viewAll:hover{
+    text-decoration: none;
+     color: #000000;
+}
+.jumbotron-content-grey{
+	background-color: #f2f2f2 !important;
+	text-align:center;
+	padding: 100px 0px 100px 0px !important;
+	margin: 0px !important;
+}
 
+.div-background-dark{
+	background:#222;
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-bottom: 1px solid #aaa;	
+}
+.joining-black-small-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;   
+}
+.joining-black-big-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;   
+}
+.joining-black-content{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 30px;  
+}
+.white-button{
+	color:#000;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: solid 2px #fff;
+    padding: 6px;
+    background: #fff;
+}
+.white-button:hover{
+	color:#000 !important;
+    text-decoration: none;
+ }
+.black-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-decoration:underline;
+    
+}
 
+.black-link:hover{
+    color: #fff !important;
+    text-decoration: none;   
+}
+.text-input-newsletter{
+    height: 50px;
+    width: 90%;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+    background: #222;
+    border: solid 2px #fff;
+    padding-right:20px;
+    
+}
+.cardTitleHeading{
+    color:#000;
+	font-size: 20px;
+    font-weight: bold;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+    
+}
+.cardTitleSubHeading{
+    color:#595959;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.cardHeading{
+    color:#000;
+	font-size: 24px;
+    font-weight: bold;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif; 
+}
 
 
 
@@ -181,8 +348,22 @@ nav{
      .menuLink{
         font-size: 10px;
     }
+    .click-button{
+         font-size: 12px  !important;
+    }
 
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .div-background-dark{
+        padding: 30px;
+        border-right: 1px solid white;
+    }   
+}
+
+
 
 
 /* Medium devices ( 767px and down) start */
@@ -196,6 +377,9 @@ nav{
     }
       .nav-item{
         padding: 8px 0px;
+    }
+    .card{
+        margin-bottom: 20px;
     }
 }
 
@@ -216,6 +400,33 @@ nav{
        padding: 0px 10px;
        font-size: 12px;
     }
+    .starting-heading{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+     .click-button{
+         font-size: 26px  !important;
+          padding: 8px 22px  !important;
+    }
+    .div-background-dark{
+         border-left: 1px solid #aaa;
+         padding: 100px;   
+    }
+        
+.white-button{
+	color:#000;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: solid 2px #fff;
+    padding: 10px 60px 10px 60px;
+    background: #fff;
+}
+.white-button:hover{
+	color:#000 !important;
+ }
 }
     
 
@@ -228,10 +439,6 @@ nav{
 
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
-      .menuLink{
-        padding: 0px 25px;
-       font-size: 14px;
-    }
     
 }
 
@@ -239,10 +446,7 @@ nav{
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
-     .menuLink{
-        padding: 0px 40px;
-    }
-    
+   
     
 }
 
