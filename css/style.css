@@ -40,7 +40,7 @@ nav{
 }
 .jumbotron-header {
  
- padding: 10px 0px 10px 0px;   
+ padding: 5px 0px;   
  text-align: center;
   top: 0px;
   right: 0;
@@ -71,6 +71,20 @@ nav{
      color:  #ffffff;
     
 }
+.navLink1{
+    color:  #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 14px;  
+    padding: 0px 10px;
+}
+.navLink1:hover{
+    text-decoration: none;
+     color:  #ffffff;
+    
+}
+
 .navLinkStyle{
     list-style-type: none;
 }
@@ -98,7 +112,7 @@ nav{
 .container-1{
     background-color:#e9b30e;
     width: 100%;
-    padding: 20px 0px;
+    padding: 12px 0px;
     text-align: center;
     margin: 0px auto;
 }
@@ -135,6 +149,94 @@ nav{
 .logoImage{
         width: 120%;
 }
+
+.sliderSection{
+   margin: 20px 0px; 
+}
+.sliderSection .carousel-caption{
+    bottom: 80px;
+    left: 60%;
+    position: absolute;
+}
+.sliderSmallHeading{
+     color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.tabBorder{
+  border: 1px solid #e9b30e;
+    padding: 10px;
+    height: auto;
+}
+.searchBar{
+    width: 45% !important;
+}
+.searchButton{
+    background-color: #e9b30e;
+    color: #ffff;
+}
+.catagory{
+     text-align: center;
+     margin: 0px auto;
+     color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.catagoryCnt{
+    background-color: #e9b30e;
+    padding: 10px;
+}
+.catagoryProduct{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:  #808080;
+    font-size: 14px;
+    margin: 4px 0px;
+}
+.catagoryProduct:hover{
+    text-decoration: none;
+    color:  #808080;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color:  #ffffff;
+    background-color:#e9b30e; 
+}
+.sliderSection .carousel-indicators li{
+    background-color: #e9b30e;
+    height: 5px;
+    width: 33px;
+}
+.browseHeading{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:  #000000;
+    font-size: 18px;
+    border-bottom: 2px solid  #e9b30e;
+    font-weight: bold;
+    
+}
+.priceRange{
+     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:  #000000;
+    font-size: 14px;
+    margin: 2px 0px;
+    font-weight: 600;
+}
+.priceRange:hover{
+     color:  #000000;
+}
+
+
+
+
+
+
+
 
 .jumbotron-footer{
    background:#060506 !important;
@@ -381,6 +483,9 @@ nav{
     .card{
         margin-bottom: 20px;
     }
+    .sliderSection .carousel-caption{
+        display: none;
+    }
 }
 
 
@@ -397,8 +502,7 @@ nav{
          display: block;
     }
     .menuLink{
-       padding: 0px 10px;
-       font-size: 12px;
+       font-size: 9px;
     }
     .starting-heading{
         font-size: 25px;
@@ -427,6 +531,9 @@ nav{
 .white-button:hover{
 	color:#000 !important;
  }
+    .sliderSmallHeading{
+        font-size: 26px;
+    }
 }
     
 
@@ -439,6 +546,9 @@ nav{
 
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
+    .menuLink{
+       font-size: 10px;
+    }
     
 }
 
@@ -446,6 +556,10 @@ nav{
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
+     .menuLink{
+       font-size: 12px;
+         padding: 10px;
+    }
    
     
 }
