@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ::selection {
   background:#c1928b;
     color:#fff;/* WebKit/Blink Browsers */
@@ -60,7 +59,7 @@ nav{
 
 .navLink{
     color:  #ffffff;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 16px;  
@@ -73,16 +72,18 @@ nav{
 }
 .navLink1{
     color:  #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: lowercase;
     text-decoration: none;
     font-size: 14px;  
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 .navLink1:hover{
     text-decoration: none;
-     color:  #ffffff;
-    
+     color:  #ffffff;   
+}
+.navLink11{
+    margin-left: -18px;
 }
 
 .navLinkStyle{
@@ -95,7 +96,7 @@ nav{
 }
 .signLink{
     color: #060506;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;  
@@ -118,7 +119,7 @@ nav{
 }
 .menuLink{
     color: #060506;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
@@ -131,7 +132,7 @@ nav{
 }
 .dropDownLink{
     color: #060506;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
     font-size: 12px;
@@ -160,7 +161,7 @@ nav{
 }
 .sliderSmallHeading{
      color: #000000;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
     font-size: 14px;
@@ -183,7 +184,7 @@ nav{
      text-align: center;
      margin: 0px auto;
      color: #000000;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 .catagoryCnt{
@@ -191,7 +192,7 @@ nav{
     padding: 10px;
 }
 .catagoryProduct{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color:  #808080;
     font-size: 14px;
@@ -211,26 +212,202 @@ nav{
     width: 33px;
 }
 .browseHeading{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color:  #000000;
     font-size: 18px;
-    border-bottom: 2px solid  #e9b30e;
     font-weight: bold;
     
 }
 .priceRange{
-     font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color:  #000000;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin: 2px 0px;
     font-weight: 600;
 }
 .priceRange:hover{
      color:  #000000;
 }
+.logoHeading{
+       font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:  #000000;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.navbarSecond{
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding:15px 0px;
+}
+.extraMargin{
+    margin-left: -270px;
+}
 
+/*---------------------
+  Trend
+-----------------------*/
+
+.trend {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.trend__content .section-title h4 {
+	font-size: 22px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.trend__content .section-title h4:after {
+	bottom: -6px;
+}
+
+.trend__item {
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+
+.trend__item__pic {
+	float: left;
+	margin-right: 25px;
+   
+}
+.trend__item__pic img{
+     height: 70px;
+    width: 80px;
+    
+}
+
+.trend__item__text {
+	overflow: hidden;
+}
+
+.trend__item__text h6 {
+	font-size: 14px;
+	color: #111111;
+	margin-bottom: 5px;
+}
+.trend__item__text h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.trend__item__text .rating {
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+.trend__item__text .rating i {
+	font-size: 11px;
+	color: #808080;
+	margin-right: -4px;
+}
+
+.trend__item__text .rating i:last-child {
+	margin-right: 0;
+}
+
+.trend__item__text .product__price {
+	color: #111111;
+	font-weight: 600;
+}
+
+.trend__item__text .product__price span {
+	font-size: 14px;
+	color: #b1b0b0;
+	text-decoration: line-through;
+	margin-left: 4px;
+}
+.paddingExtra{
+    margin-bottom: -15px;
+}
+.sliderSection .carousel-control-next-icon{
+    display: none;
+}
+.sliderSection .carousel:hover .carousel-control-next-icon{
+    display: block;
+}
+.sliderSection .carousel-control-prev-icon{
+    display: none;
+}
+.sliderSection .carousel:hover .carousel-control-prev-icon{
+    display: block;
+}
+.sliderSection .carousel-control-next-icon, .sliderSection .carousel-control-prev-icon{
+    background-color: #e9b30e;
+    padding: 15px;
+    border-radius: 50%;
+    color: black;
+}
+.backImage{
+   background-image: url(../images/banner1.jpg);
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+}
+.white{
+    color: #ffffff !important;
+}
+.backImg1{
+    height: 370px;
+    width: 185px;
+}
+.backImg1Margin{
+    margin-left: -15px;
+}
+.whiteBack{
+  background-color: #ffffff;
+    box-shadow: 7px 7px  #f2f2f2;
+}
+.whiteBackDesc{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.cardTitleSubHeadingcnt{
+    padding: 10px 0px;
+}
+.rating{
+    padding: 10px 0px;
+    color: #e9b30e;
+    font-size: 12px;
+}
+.sale{
+     font-family: 'Roboto', sans-serif;
+    color: #000000;
+    text-align: end;
+}
+.discount{
+     font-family: 'Roboto', sans-serif;
+    color: red;
+    font-weight: bold;
+}
+.timer{
+  display: inline;
+font-size: 24px;
+margin-top: -10px;
+border: 1px solid #e9b30e;
+padding: 7px 10px;
+margin-left: 10px;
+     font-family: 'Roboto', sans-serif;
+}
+.timerBox{
+    padding-bottom: 25px;
+}
+.cardBodyDecs{
+    text-align: center;
+}
+.thumbnailCard .card-img, .card-img-bottom, .card-img-top{
+    width: 90%;
+    margin: 25px 14px;
+}
 
 
 
@@ -247,8 +424,8 @@ nav{
 	padding: 100px 0px 100px 0px !important;
     margin: 0px;
 }
-.jumbotron-footer .container{
-    max-width: 1140px;    
+ .container{
+    max-width: 1240px;    
 }
   .carousel-inner img {
     width: 100%;
@@ -257,18 +434,18 @@ nav{
 
 .footer-heading{
 	color: #fff;
-	font-size:14px;
+	font-size:16px;
 	text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-	font-family: 'Montserrat', sans-serif;
+	 font-family: 'Roboto', sans-serif;
  
 }
 .footer-links{
 	color: #eee;
-	font-size:12px;
+	font-size:14px;
 	text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     padding: 8px 0px 8px 0px;
     line-height: 32px !important;
 }
@@ -281,7 +458,7 @@ nav{
     font-size: 15px;
 }
 .starting-heading{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #000;
     font-size: 15px;
     text-decoration: none;
@@ -290,7 +467,7 @@ nav{
     font-weight: bold;
 }
 .top-icon-headings{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #333;
     font-size: 20px;
     text-decoration: none;
@@ -313,7 +490,7 @@ nav{
     text-align: center;
 }
 .viewDetails{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     background-color: #e9b30e;
     color: #ffffff;
     border: none;
@@ -330,7 +507,7 @@ nav{
     text-align: end;
 }
 .viewAll{
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
     color: #000000;
     font-size: 15px;
@@ -354,7 +531,7 @@ nav{
     border-bottom: 1px solid #aaa;	
 }
 .joining-black-small-heading{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 11px;
     text-decoration: none;
@@ -362,13 +539,13 @@ nav{
     letter-spacing: 4px;   
 }
 .joining-black-big-heading{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 22px;
     text-decoration: none;   
 }
 .joining-black-content{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 14px;
     text-decoration: none;
@@ -378,7 +555,7 @@ nav{
 	color:#000;
 	font-size: 12px;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	 font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     border: solid 2px #fff;
@@ -390,7 +567,7 @@ nav{
     text-decoration: none;
  }
 .black-link{
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 14px;
     text-decoration:underline;
@@ -416,21 +593,21 @@ nav{
 	font-size: 20px;
     font-weight: bold;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	 font-family: 'Roboto', sans-serif;
     
 }
 .cardTitleSubHeading{
     color:#595959;
 	font-size: 14px;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+	 font-family: 'Roboto', sans-serif;
 }
 .cardHeading{
     color:#000;
 	font-size: 24px;
     font-weight: bold;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif; 
+	 font-family: 'Roboto', sans-serif;
 }
 
 
