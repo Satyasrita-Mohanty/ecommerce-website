@@ -408,6 +408,169 @@ margin-left: 10px;
     width: 90%;
     margin: 25px 14px;
 }
+.catHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.yellow:hover{
+     width: 30%;
+}
+
+.yellow{
+    width: 12%;
+    height: 4px;
+    background-color: #e9b30e;
+    margin-top: -8px;
+}
+.catagoryProduct2{
+    text-transform: uppercase;
+}
+.catagoryProduct2:hover{
+    color: #e9b30e;
+}
+.catagoryProduct2:focus{
+    color: #e9b30e;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: transparent;
+    color: #e9b30e;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:focus{
+     border-color: transparent;
+}
+.iconBorder{
+    padding: 12px 15px;
+    background-color: #999999;
+    border-radius: 50%;
+    font-size: 25px;
+    
+}
+.iconBorder:hover{
+    background-color: #e9b30e;
+}
+.iconBorder:hover i{
+    color: #ffffff;
+}
+.iconBorder i{
+    color: #000000;
+}
+.trend__itemBox{
+    margin: 30px 25px;
+}
+.trend__item__textP{
+    padding-bottom: 10px;
+}
+.trend__itemBoxP{
+    margin-top: -20px;
+}
+.card{
+    border: 2px solid rgba(0,0,0,.125);
+}
+.discountImage{
+   background-image: url(../images/slider1.jpg);
+    background-position: center;
+    height: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.discountImageDesc{
+    vertical-align: middle; 
+    margin: 130px 0px;
+}
+.middleImg{
+    width: 100%;
+    max-height: 220px;
+}
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev{
+    left: 93% !important;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 100%;
+  width: auto;
+  padding: 5px;
+  margin-top: -5px;
+  font-weight: bold;
+  font-size: 34px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+    background-color: #e9b30e;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #000000;
+    color: #e9b30e;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.calenderColor{
+    color: #e9b30e;
+}
+.addcnt{
+    padding-top: 10px;
+}
+.cardBodyDecs{
+    margin-top: -20px;
+}
+
+
 
 
 
