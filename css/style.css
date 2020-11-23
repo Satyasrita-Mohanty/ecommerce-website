@@ -113,7 +113,7 @@ nav{
 .container-1{
     background-color:#e9b30e;
     width: 100%;
-    padding: 12px 0px;
+    padding: 8px 0px;
     text-align: center;
     margin: 0px auto;
 }
@@ -279,8 +279,8 @@ nav{
    
 }
 .trend__item__pic img{
-     height: 70px;
-    width: 80px;
+     height: 45px;
+    width: 60px;
     
 }
 
@@ -290,7 +290,7 @@ nav{
 
 .trend__item__text h6 {
     font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	color: #111111;
 	margin-bottom: 5px;
 }
@@ -347,6 +347,14 @@ nav{
     border-radius: 50%;
     color: black;
 }
+.newRelease .rating{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.newRelease  .trend__item{
+    margin-bottom: 5px;
+ }
+
 .backImage{
    background-image: url(../images/banner1.jpg);
     background-position: center;
@@ -360,7 +368,7 @@ nav{
 }
 .backImg1{
     height: 370px;
-    width: 185px;
+    width: 100%;
 }
 .backImg1Margin{
     margin-left: -15px;
@@ -385,6 +393,7 @@ nav{
      font-family: 'Roboto', sans-serif;
     color: #000000;
     text-align: end;
+    font-weight: bold;
 }
 .discount{
      font-family: 'Roboto', sans-serif;
@@ -635,7 +644,7 @@ img {vertical-align: middle;}
     border: none;
 }
 .viewDetails:hover{
-     background-color: #e9b30e;
+     background-color: #060506;
      color: #ffffff;
 }
 .viewDetails:focus{
@@ -649,6 +658,21 @@ img {vertical-align: middle;}
 	text-decoration: none;
 	 font-family: 'Roboto', sans-serif;
 }
+.marginRight{
+    margin-left: 15px;
+}
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+
 
 
 
@@ -822,7 +846,7 @@ img {vertical-align: middle;}
         font-size: 14px;
     }
     .prev{
-      left: 93% !important;
+      left: 95% !important;
     }
     .middleImg{
       width: 100%;
@@ -846,8 +870,11 @@ img {vertical-align: middle;}
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
 @media only screen and (min-width: 1200px) {
      .menuLink{
-       font-size: 12px;
+       font-size: 16px;
          padding: 10px;
+    }
+    .dropDownLink{
+         font-size: 14px;
     }
     .middleImg{
       width: 100%;
@@ -860,6 +887,23 @@ img {vertical-align: middle;}
     .trend__content .section-title h4{
         font-size: 22px;
     }
-   
-    
+    .logoHeading{
+         font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .sliderImage{
+        height: 475px !important;
+    }
+    .catagoryProduct{
+        margin: 2px 0px;
+    }
+    .prev, .next{
+        font-size: 18px;
+    }
+    .catagoryProduct2{
+        letter-spacing: 2px;
+    }
+    .imgHeight{
+        height: 180px !important;
+    }
 }
