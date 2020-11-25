@@ -141,6 +141,7 @@ nav{
 .dropDownLink:hover{
     color: #e9b30e;
     text-decoration: none;
+    background-color: transparent;
 }
 .dropDownLink:focus{
     color: #e9b30e;
@@ -192,6 +193,10 @@ nav{
     color: #000000;
     text-decoration: none;
 }
+.catagoryUpper{
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+}
 
 .catagoryCnt{
     background-color: #e9b30e;
@@ -203,14 +208,36 @@ nav{
     color:  #808080;
     font-size: 10px;
     margin: 4px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dropdown:hover .dropdown-menu{
+  display: block!important;
+}
+.dropright .dropdown-menu{
+    border: 1px solid  #e9b30e;
+    left: 105%;
 }
 .catagoryProduct:hover{
     text-decoration: none;
-    color:  #808080;
+    color: #e9b30e;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    color:  #ffffff;
-    background-color:#e9b30e; 
+    color: #e9b30e;
+    background-color: transparent; 
+}
+.arrowicon{
+    font-size: 12px !important;
+    padding-right: 15px;
+    margin-left: -10px;
+}
+.bottomBorder{
+   border-bottom: 1px solid rgba(0,0,0,.1);
+    border-radius: 0px;
+}
+.equalsign{
+    font-size: 18px;
+    margin: 2px 3px 0px 0px;
 }
 .sliderSection .carousel-indicators li{
     background-color: #e9b30e;
@@ -252,6 +279,9 @@ nav{
 }
 .extraMargin{
     margin-left: -270px;
+}
+.dropdown:hover .dropdown-menu.show{
+    display: block !important;
 }
 
 /*---------------------
@@ -381,7 +411,7 @@ nav{
 }
 .whiteBack{
   background-color: #ffffff;
-    box-shadow: 7px 7px  #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 .whiteBackDesc{
     margin-left: 20px;
@@ -389,6 +419,9 @@ nav{
 }
 .cardTitleSubHeadingcnt{
     padding: 10px 0px;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .rating{
     padding: 10px 0px;
@@ -421,7 +454,7 @@ margin-left: 10px;
 .cardBodyDecs{
     text-align: center;
 }
-.thumbnailCard .card-img, .card-img-bottom, .card-img-top{
+.thumbnailCard .card-img,.thumbnailCard .card-img-bottom,.thumbnailCard .card-img-top{
     width: 90%;
     margin: 25px 14px;
 }
@@ -447,6 +480,9 @@ margin-left: 10px;
     text-transform: uppercase;
 }
 .catagoryProduct2:hover{
+    color: #e9b30e;
+}
+.catagoryProduct2:focus{
     color: #e9b30e;
 }
 .catagoryProduct2:focus{
@@ -526,13 +562,14 @@ img {vertical-align: middle;}
   cursor: pointer;
   position: absolute;
   bottom: 100%;
-  width: auto;
-  padding: 5px;
+  width: 32px;
+  height: 32px;
+  padding: 5px 10px;
   margin-top: -5px;
   font-weight: bold;
-  font-size: 34px;
+  font-size: 15px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 50%;
   user-select: none;
     background-color: #e9b30e;
     color: #ffffff;
@@ -542,13 +579,13 @@ img {vertical-align: middle;}
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #000000;
     color: #e9b30e;
+    text-decoration: none;
 }
 
 
@@ -850,7 +887,7 @@ img {vertical-align: middle;}
         left: 0% !important;
     }
     .prev, .next{
-        font-size: 24px;
+        font-size: 18px;
     }
     .slideshow-container{
         margin-top: 50px;
@@ -933,10 +970,10 @@ img {vertical-align: middle;}
        font-size: 10px;
     }
       .catagoryProduct{
-        font-size: 14px;
+        font-size: 13px;
     }
     .prev{
-      left: 95% !important;
+      left: 93% !important;
     }
     .middleImg{
       width: 100%;
@@ -964,7 +1001,7 @@ img {vertical-align: middle;}
          padding: 10px;
     }
     .dropDownLink{
-         font-size: 14px;
+         font-size: 13px;
     }
     .middleImg{
       width: 100%;
@@ -988,12 +1025,19 @@ img {vertical-align: middle;}
         margin: 2px 0px;
     }
     .prev, .next{
-        font-size: 18px;
+        font-size: 15px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        
     }
     .catagoryProduct2{
         letter-spacing: 2px;
     }
     .imgHeight{
         height: 180px !important;
+    }
+    .prev{
+      left: 94% !important;
     }
 }
