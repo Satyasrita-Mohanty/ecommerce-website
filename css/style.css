@@ -614,6 +614,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
+
 /* product-listing page */
 .breadcrumCont{
     text-align: left;
@@ -725,6 +726,78 @@ img {vertical-align: middle;}
      color: #000000;
     background-color: #e9b30e;
 }
+
+
+/* product-details page */
+.productDetailsImage{
+    width: 100%;
+    padding: 22px;
+}
+.smallSlider{
+    padding: 13px;
+}
+.productDetails .card{
+    box-shadow: none;
+}
+.productDetails .carousel-control-next{
+    right: 14px;
+    background-color: #e9b30e;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    top: 38%;
+}
+.productDetails .carousel-control-prev{
+    left: 22px;
+    background-color: #e9b30e;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    top: 38%;
+}
+.productDetails .carousel-inner{
+    margin-left: 20px;
+}
+.marginLeft{
+    margin-left: 0px;
+}
+.reviewWrite{
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 15px;
+}
+.reviewWrite:hover{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #e9b30e;
+}
+.marginTop{
+    margin-top: 9px;
+}
+.greenCircle{
+    color: green;
+}
+.desc{
+  font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.priceRangeTag{
+    font-size: 25px !important;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+.detailsBtn{
+    padding: 8px 22px;
+}
+.greycircle{
+    font-size: 9px;
+}
+
+
+
 
 
 
