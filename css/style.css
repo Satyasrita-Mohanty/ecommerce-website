@@ -729,6 +729,7 @@ img {vertical-align: middle;}
 
 
 /* product-details page */
+
 .productDetailsImage{
     width: 100%;
     padding: 22px;
@@ -798,7 +799,66 @@ img {vertical-align: middle;}
 
 
 
+/* shopping cart */
 
+.cart .breadcrumHead{
+    font-size: 18px !important;
+}
+.cart .form-control{
+    width: 100%;
+}
+.cartMargin{
+    margin-left: 5px;
+    margin-bottom: -15px;
+}
+
+.cart .alert-dismissible .close{
+    position: absolute;
+    top: -2px;
+    right: 11px;
+    padding: 0px;
+    color: inherit;
+}
+.cart .alert-dismissible{
+    padding: 13px 15px 13px 25px;
+}
+.cart .alert-danger{
+    background-color: #d2322d;
+    color: #ffffff;
+}
+.alignRight{
+    text-align: end
+}
+.cartUpdate{
+    background-color: #060506 !important;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    letter-spacing: 1px !important;
+}
+.cartUpdate:hover{
+    background-color: #e9b30e !important;
+    color: #ffffff !important;
+}
+.greyBack{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.extraPadding{
+    padding: 8px 0px;
+}
+.greyBorder{
+    border: 2px solid #f2f2f2;
+    padding: 20px;
+}
+.greyback{
+   background-color:  #f2f2f2;
+  padding: 6px;
+    margin-left: 0px;
+}
+.productMargin{
+    margin-left: 20px;
+}
 
 
 
@@ -940,6 +1000,16 @@ img {vertical-align: middle;}
     .priceRange{
         font-size: 12px;
     }
+     .productDetailsOne .breadcrumb .breadcrumb-item a{
+       padding: 0px;
+       font-size: 9px !important;
+     }
+     .productDetailsOne .breadcrumHead{
+        font-size: 14px !important;
+     }
+     .detailsBtn{
+        padding: 4px 12px !important;
+     }
 
 }
 
@@ -947,7 +1017,6 @@ img {vertical-align: middle;}
 
 /* Medium devices ( 767px and down) start */
 @media only screen and (max-width: 767px){ 
-    
     .nav-item{
         padding: 8px 0px;
     }
@@ -1010,12 +1079,67 @@ img {vertical-align: middle;}
     .catagoryProduct2{
         font-size: 10px;
     }
+    .productDetailsOne .breadcrumb .breadcrumb-item a{
+       padding: 0px;
+       font-size: 11px;
+   }
+    .smallSlider{
+        padding: 0px;
+    }
+    .productDetailsOne .carousel-control-prev{
+        display: none;
+     }
+    .productDetailsOne .carousel-control-next{
+        display: none;
+    }
+    .productDetailsOne .breadcrumHead{
+        font-size: 16px;
+    }
+    .productDetails .carousel-inner{
+        margin-top: -30px;
+    }
+    .detailsBtn{
+        padding: 6px 16px;
+    }
+    .leftmargin{
+        margin-left: 12px;
+    }
+    .priceRangeTag{
+        font-size: 20px !important;
+    }
+    .rowMargin{
+        margin-top: -35px;
+        margin-bottom: -20px;
+    }
+    .catHeading{
+        font-size: 18px;
+    }
+    .hideThis{
+        display: none;
+    }
+    .cart .headingHide{
+        font-size: 10px !important;
+    }
+    .widthMargin{
+        width: 55% !important;
+    }
+    .topMarginn{
+        margin-top: -50px;
+    }
+    .centerAlign{
+        margin: 0px auto;
+        margin-top: -40px;
+    }
 }
 
 
 
 /* Medium devices (landscape tablets, 768px and up)  start*/
 @media only screen and (min-width: 768px) {
+    .thumbnailCard .card-img,.thumbnailCard .card-img-bottom,.thumbnailCard .card-img-top{
+        width: 90%;
+        margin: 25px 8px;
+     }
     .priceRange{
         font-size: 12px;
     }
@@ -1048,11 +1172,17 @@ img {vertical-align: middle;}
       width: 100%;
       max-height: 295px;
     }
+    .cart .form-control{
+      width: 50%;
+   }
 }
     
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
+     .bottomPadding{
+        margin-bottom: 20px !important;
+    }
     .navLink{
         font-size: 14px;
     }
@@ -1072,12 +1202,19 @@ img {vertical-align: middle;}
     .topMargin{
         margin-top: 10px;
     }
+    .discountSection{
+        margin-top: 20px;
+    }
 }
 
 
 
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
+    .thumbnailCard .card-img,.thumbnailCard .card-img-bottom,.thumbnailCard .card-img-top{
+        width: 90%;
+        margin: 25px 14px;
+     }
     .menuLink{
        font-size: 10px;
     }
@@ -1089,10 +1226,10 @@ img {vertical-align: middle;}
     }
     .middleImg{
       width: 100%;
-      max-height: 254px;
+      max-height: 240px;
     }    
      .priceRange{
-        font-size: 16px;
+        font-size: 15px;
     }
     .sliderImage{
        width: 100%;
@@ -1151,5 +1288,8 @@ img {vertical-align: middle;}
     }
     .prev{
       left: 94% !important;
+    }
+    .cart .form-control{
+      width: 40%;
     }
 }
